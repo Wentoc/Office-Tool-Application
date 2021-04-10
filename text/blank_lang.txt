@@ -1,0 +1,20 @@
+          <li><a class="menu__item" href="#">Главная</a></li>
+          <li><a class="menu__item" href="#">Проекты</a></li>
+          <li><a class="menu__item" href="#">Команда</a></li>
+          <li><a class="menu__item" href="#">Блог</a></li>
+          <li><a class="menu__item" href="#">Контакты</a></li>
+
+           <!--  onload="pagePreload()" -->
+    <!-- <div id="loading"></div> -->
+    <!-- <div class="loader-wrapper">
+      <span class="loader"><img src="https://robertwarrensauto.com/Content/images/loading.gif" /></span></span>
+    </div> -->
+        /* background-color: #000000; */
+    /* overflow-x: hidden; */
+    /* -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; */
+    /* height: 100wh; */
