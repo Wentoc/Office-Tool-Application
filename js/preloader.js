@@ -7,16 +7,3 @@ $(document).ready(function () {
   }
   hidePreloader();
 });
-
-// $(window).on("load",function(){
-//     $(".loader-wrapper").fadeOut("slow");
-//   });
-
-// var preloader = document.getElementById("loading");
-
-// function pagePreload()
-// {
-//    preloader.style.display = 'none';
-// };
-
-// pagePreload();

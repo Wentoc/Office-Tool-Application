@@ -32,11 +32,13 @@ html{
     user-select: none;
 }
 .header{
+   position: sticky;
+   top: 0;
    width: 360px;
    height: 60px;
+   display: flex;
 
    background-color: rgb(228, 40, 40);
-   display: flex;
 
    -webkit-touch-callout: none;
    -webkit-user-select: none;
@@ -115,7 +117,7 @@ html{
   width: 100%;
   height: 2px;
 
-  background-color: #3a323a;
+  background-color: #000000;
 
   /* z-index: 1; */
 
@@ -380,7 +382,8 @@ footer p {
 /* Tools */
 .tool1{
   /* background-color: #17D4FE; */
-  display: flex;
+  /* display: flex; */
+  position: relative;
   background-color: #aadddb;
   /* border: none; */
   width: 365px;
@@ -391,6 +394,8 @@ footer p {
   transform: translate(-1%, -0.7%);
 }
 .tool2{
+  position: relative;
+  z-index: -1;
   background-color: #cce6ec;
   /* border: none; */
   width: 365px;
@@ -402,6 +407,8 @@ footer p {
   transform: translate(-1%, -0.7%);
 }
 .tool3{
+  position: relative;
+  z-index: -1;
   background-color: #aadddb;
   border: none;
   width: 365px;
@@ -411,6 +418,8 @@ footer p {
   transform: translate(-1%, -0.6%);
 } 
 .tool4{
+  position: relative;
+  z-index: -1;
   background-color: #a5c8cf;
   border: none;
   width: 365px;
@@ -419,6 +428,8 @@ footer p {
   transform: translate(-1%, -1%);
 } 
 .tool5{
+  position: relative;
+  z-index: -1;
   background-color: #8ea5aa;
   border: none;
   width: 365px;
@@ -427,12 +438,25 @@ footer p {
   transform: translate(-1%, -1.1%);
 }
 .tool6{
+  position: relative;
+  z-index: -1;
   background-color: #90ceeb;
   border: none;
   width: 365px;
   height: 80px;
   border-radius: 0px;
   transform: translate(-1%, -1%);
+}
+
+/* Bottom Tab Navigator */
+.bottomNavBar{
+  width: 365px;
+  height: 60px;
+  position: sticky;
+  bottom: 0;
+  background-color: #f83636;
+  border-top: solid #6e6c6c;
+  border-top-width: thin;
 }
 
 /* Icons */
